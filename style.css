@@ -10,7 +10,7 @@ body {
 /*******HEADER*******/
 
 header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/desk4.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/background1.jpg);
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -39,7 +39,7 @@ header {
 
 .arrow {
     width: 50px;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
 
@@ -80,15 +80,17 @@ header {
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
-    background: url(img/profile.jpg);
+    background: url(img/profile-pic.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+
 }
 
 .profile-image-wrapper img {
     opacity: 0;
     filter: alpha(opacity=0);
+
 }
 
 .profile-image {
@@ -137,7 +139,7 @@ p {
 }
 
 .languages {
-	margin-left: 75px;
+	margin-left: 70px;
 	display:flex;
 	flex-direction: column;
 	align-items: center;
@@ -218,6 +220,7 @@ footer {
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
+    padding-bottom: 30px;
 }
 
 .contact-list i {
