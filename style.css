@@ -276,7 +276,7 @@ footer {
 
   /*------------ HEADER ------------*/
     header {
-      color: red;
+     /* color: red;*/
       background-size: cover;
       height: 100vh;
       background-attachment: fixed;
@@ -388,7 +388,7 @@ footer {
 
 @media (max-width: 600px) {
 	header {
-		color: purple;
+		/*color: purple;*/
 		background-size: cover;
 		background-position: cover;
 		background-repeat: no-repeat;
