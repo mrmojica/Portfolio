@@ -30,7 +30,7 @@ header {
     font-weight: 300;
     text-transform: uppercase;
     font-size: 2em;
-    margin-top: 150px;
+    /*margin-top: 150px;*/
 }
 
 .skills-icons img {
@@ -72,45 +72,38 @@ header {
 
 .container-about {
     background-color: #F2F2F2;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 50px 0px 125px 0px;
+    padding: 50px 0px;
 }
 
-.container-profile,
-.skills {
+
+
+.container-profile {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .profile {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   margin-top: 25px;
+}
+
+.profile-content {
+
 }
 
 .profile-content h1 {
     color: #6C7CFF;
 }
 
-.profile-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    max-width: 600px;
-    margin: 0 auto 20px;
-    text-align: justify;
-}
-
 .phrase {
-	font-family: 'Tillana', sans-serif;
-	font-size: 1.5em;
+	font-family: 'Lato', sans-serif;
+	color: #6C7CFF;
 
 }
 
@@ -132,7 +125,7 @@ header {
     align-self: center;
     opacity: 1;
     filter: alpha(opacity=100);
-    margin-top: 25px;
+    
 }
 
 .contact-link:hover {
@@ -146,7 +139,6 @@ header {
 
 p {
     max-width: 600px;
-    margin: 0 auto 20px;
     text-align: justify;
 }
 
