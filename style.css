@@ -387,8 +387,7 @@
             height: auto;
             width: 100%;
         }
-        .container-profile,
-        .skills {
+        .container-profile {
             display: flex;
             flex-direction: column;
             justify-content: center;
