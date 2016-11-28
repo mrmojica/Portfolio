@@ -448,3 +448,9 @@
         .project-right {
             flex-direction: column-reverse;
         }
+
+		.technologies span {
+		    display: none;
+		}
+
+
