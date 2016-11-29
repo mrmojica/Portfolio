@@ -226,6 +226,10 @@
 	  font-size: 1em;
 	}
 
+    .tools {
+        display: none;
+    }
+
     /*******FOOTER*******/
     
     footer {
@@ -451,5 +455,9 @@
 		.technologies span {
 		    display: none;
 		}
+
+        .tools {
+            display: block;
+        }
 	}
 
