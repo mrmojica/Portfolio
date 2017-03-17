@@ -7,13 +7,13 @@ $("#nav-about").click(function() {
 $("#nav-work").click(function() {
     $('html,body').animate({
         scrollTop: $("#work").offset().top},
-        1250);
+        1300);
 });
 
 $("#nav-contact").click(function() {
     $('html,body').animate({
         scrollTop: $("#contact").offset().top},
-        1500);
+        2000);
 });
 
 $(".arrow-link").click(function() {

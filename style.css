@@ -93,7 +93,7 @@
     
     .arrow {
         width: 50px;
-        margin-top: 70px;
+        margin-top: 125px;
     }
 
     .arrow-link:hover {
@@ -326,7 +326,8 @@
     
     .fa-envelope-o,
     .fa-github,
-    .fa-linkedin-square {
+    .fa-linkedin-square,
+    .fa-angellist {
         color: #FFFFFF;
         opacity: 1;
         filter: alpha(opacity=100);
@@ -448,6 +449,11 @@
         /*------------ HEADER ------------*/
         .nav-bar {
             justify-content: center;
+            padding-bottom: 0;
+        }
+
+        .nav li {
+            padding-right: 15px;
         }
 
         header {
