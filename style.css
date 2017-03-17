@@ -1,16 +1,47 @@
         body {
-        font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: 'Lato', sans-serif;
         margin: 0;
         line-height: 1.5;
     }
+
     /*------------ HEADER ------------*/
+    .nav-bar {
+        display: flex;
+        justify-content: flex-end;
+        background-color: #6EB3F4;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .nav li {
+        display: inline;
+        text-decoration: none;
+        padding-right: 50px;
+    }
+
+    .nav li a {
+        text-decoration: none;
+        color: #EEEEEE;
+        font-size: 1.1em;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .nav-link:hover {
+        -webkit-transition: opacity 0.5s ease-in-out;
+        -moz-transition: opacity 0.5s ease-in-out;
+        -o-transition: opacity 0.5s ease-in-out;
+        transition: opacity 0.5s ease-in-out;
+        opacity: .8;
+        filter: alpha(opacity=50);
+    }
+
     
     header {
         background-color: #6EB3F4;
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         color: #EEEEEE;
        /* background-image: radial-gradient( #6394E8, #79CEFF);*/
@@ -62,8 +93,18 @@
     
     .arrow {
         width: 50px;
-        margin-top: 75px;
+        margin-top: 70px;
     }
+
+    .arrow-link:hover {
+        -webkit-transition: opacity 0.5s ease-in-out;
+        -moz-transition: opacity 0.5s ease-in-out;
+        -o-transition: opacity 0.5s ease-in-out;
+        transition: opacity 0.5s ease-in-out;
+        opacity: .8;
+        filter: alpha(opacity=50);
+    }
+
     /*------------ ABOUT ------------*/
     
     .container-about {
@@ -303,6 +344,12 @@
     
     @media screen and (min-width: 601px) and (max-width: 1100px) {
         /*------------ HEADER ------------*/
+        
+        .nav-bar {
+            justify-content: center;
+            padding-bottom: 0;
+        }
+
         header {
             /* color: red;*/
             background-size: cover;
@@ -332,7 +379,7 @@
         }
         .arrow {
             width: 50px;
-            margin-top: 150px;
+            margin-top: 100px;
         }
         /*------------ ABOUT ------------*/
         .container-about {
@@ -399,6 +446,10 @@
     
     @media (max-width: 600px) {
         /*------------ HEADER ------------*/
+        .nav-bar {
+            justify-content: center;
+        }
+
         header {
             background-size: cover;
             background-position: cover;
@@ -512,4 +563,6 @@
 
 
 	}
+
+
 
